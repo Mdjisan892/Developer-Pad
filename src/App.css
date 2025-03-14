@@ -1,0 +1,11 @@
+.CodeMirror{
+    height: 100% !important;
+    position: absolute;
+}
+.editor-container.collaps .CodeMirror-scroll{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    overflow: hidden !important;
+    overflow-y: visible;
+}
